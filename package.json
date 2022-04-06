@@ -1,0 +1,20 @@
+{
+  "name": "chat",
+  "version": "1.0.6",
+  "description": "chat using react",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5",
+    "ws": "^7.4.4"
+  }
+}
